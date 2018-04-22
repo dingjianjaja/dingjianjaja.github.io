@@ -15,17 +15,17 @@
 
 
 
-<meta name="description" content="简单体验12345678910// 定义变量var i = 10print(i)i = 15print(i)let j = 20// 常量一经定义不能自改数值//        j = 25print(j)">
+<meta name="description" content="iOS开发文档架构篇 文件夹分组格式 pch格式 网络头文件 interface stroyboard">
 <meta property="og:type" content="article">
-<meta property="og:title" content="常量变量">
-<meta property="og:url" content="http://yoursite.com/2015/09/05/01/index.html">
+<meta property="og:title" content="iOS开发文档">
+<meta property="og:url" content="http://yoursite.com/2018/04/22/iOS开发文档/index.html">
 <meta property="og:site_name" content="dingjianjajaの博客">
-<meta property="og:description" content="简单体验12345678910// 定义变量var i = 10print(i)i = 15print(i)let j = 20// 常量一经定义不能自改数值//        j = 25print(j)">
+<meta property="og:description" content="iOS开发文档架构篇 文件夹分组格式 pch格式 网络头文件 interface stroyboard">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-13T14:22:23.000Z">
+<meta property="og:updated_time" content="2018-04-22T09:33:55.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="常量变量">
-<meta name="twitter:description" content="简单体验12345678910// 定义变量var i = 10print(i)i = 15print(i)let j = 20// 常量一经定义不能自改数值//        j = 25print(j)">
+<meta name="twitter:title" content="iOS开发文档">
+<meta name="twitter:description" content="iOS开发文档架构篇 文件夹分组格式 pch格式 网络头文件 interface stroyboard">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -57,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>常量变量 | dingjianjajaの博客</title>
+<title>iOS开发文档 | dingjianjajaの博客</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -261,11 +261,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-01" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-iOS开发文档" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/09/05/01/" class="article-date">
-      <time datetime="2015-09-05T12:20:54.000Z" itemprop="datePublished">2015-09-05</time>
+      <a href="/2018/04/22/iOS开发文档/" class="article-date">
+      <time datetime="2018-04-22T09:31:21.000Z" itemprop="datePublished">2018-04-22</time>
 </a>
 
 
@@ -280,7 +280,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      常量变量
+      iOS开发文档
     </h1>
   
 
@@ -297,47 +297,62 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="简单体验"><a href="#简单体验" class="headerlink" title="简单体验"></a>简单体验</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 定义变量</span></div><div class="line"><span class="keyword">var</span> i = <span class="number">10</span></div><div class="line"><span class="built_in">print</span>(i)</div><div class="line">i = <span class="number">15</span></div><div class="line"><span class="built_in">print</span>(i)</div><div class="line"></div><div class="line"><span class="keyword">let</span> j = <span class="number">20</span></div><div class="line"><span class="comment">// 常量一经定义不能自改数值</span></div><div class="line"><span class="comment">//        j = 25</span></div><div class="line"><span class="built_in">print</span>(j)</div></pre></td></tr></table></figure>
+        <h1 id="iOS开发文档"><a href="#iOS开发文档" class="headerlink" title="iOS开发文档"></a>iOS开发文档</h1><h2 id="架构篇"><a href="#架构篇" class="headerlink" title="架构篇"></a>架构篇</h2><ol>
+<li>文件夹分组格式</li>
+<li>pch格式</li>
+<li>网络头文件</li>
+<li>interface</li>
+<li>stroyboard</li>
+</ol>
 <a id="more"></a>
-<ul>
-<li>阶段性小结<ul>
-<li><code>var</code> 定义变量，设置之后可以修改</li>
-<li><code>let</code> 定义常量，设置之后不可以修改</li>
-<li>语句末尾不用使用 <code>;</code></li>
-<li>在 Swift 中使用 <code>print()</code> 替代 OC 中的 <code>NSLog</code></li>
-<li><code>print</code> 的性能更好，后面会演示</li>
-</ul>
+<h2 id="规范篇"><a href="#规范篇" class="headerlink" title="规范篇"></a>规范篇</h2><ol>
+<li>命名规范</li>
+<li>方法顺序</li>
+<li>枚举</li>
+<li>宏</li>
+<li>属性</li>
+<li>注释</li>
+</ol>
+<h2 id="框架篇"><a href="#框架篇" class="headerlink" title="框架篇"></a>框架篇</h2><ol>
+<li>分类</li>
+<li>公司自己库</li>
+<li>cocoapods管理第三方库</li>
+<li>数据库coredata</li>
+<li>地图（百度 谷歌）</li>
+<li>具体库<ol>
+<li>字典转模型</li>
+<li>网络框架<ol>
+<li>普通请求</li>
+<li>上传下载</li>
+</ol>
 </li>
-</ul>
-<h2 id="定义-OC-对象"><a href="#定义-OC-对象" class="headerlink" title="定义 OC 对象"></a>定义 <code>OC</code> 对象</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 实例化视图</span></div><div class="line"><span class="keyword">let</span> v = <span class="type">UIView</span>(frame: <span class="type">CGRectMake</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">100</span>, <span class="number">100</span>))</div><div class="line"><span class="comment">// 设置背景颜色</span></div><div class="line">v.backgroundColor = <span class="type">UIColor</span>.redColor()</div><div class="line"></div><div class="line"><span class="comment">// 添加到根视图</span></div><div class="line">view.addSubview(v)</div></pre></td></tr></table></figure>
-<ul>
-<li>阶段性小结<ul>
-<li>在 <code>Swift</code> 中要实例化一个对象可以使用 <code>类名()</code> 的格式，与 <code>OC</code> 中的 <code>alloc/init</code> 等价</li>
-<li><code>OC</code> 中的 <code>initWithXXX</code> 在 <code>Swift</code> 中通常可以使用 <code>类名(XXX: )</code> 找到对应的函数</li>
-<li><code>OC</code> 中的 <code>[UIColor redColor]</code> 类方法，在 <code>Swift</code> 中通常可以使用 <code>类名.XXX</code> 找到对应的函数</li>
-<li>使用 <code>let</code> 修饰 <code>v</code> 并且赋值，表示 <code>该常量的内存地址不允许修改，但是可以修改其内部的属性</code></li>
-<li>当前对象的属性，不需要使用 <code>self.</code></li>
-</ul>
+<li>数据库<ol>
+<li>简单存储</li>
+<li>大量存储</li>
+</ol>
 </li>
-</ul>
-<blockquote>
-<p>常量&amp;变量的使用原则：尽量先用 let，只有需要变的时候，再用 var，能够更加安全</p>
-</blockquote>
-<h2 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a>变量类型</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> x = <span class="number">10</span></div><div class="line"><span class="keyword">let</span> y = <span class="number">10.5</span></div><div class="line"><span class="keyword">let</span> z: <span class="type">Double</span> = <span class="number">20</span></div><div class="line"></div><div class="line"><span class="built_in">print</span>(<span class="type">Double</span>(x) + y)</div><div class="line"><span class="built_in">print</span>(x + <span class="type">Int</span>(y))</div><div class="line"><span class="built_in">print</span>(y + z)</div></pre></td></tr></table></figure>
-<ul>
-<li>阶段性小结<ul>
-<li>初次接触 <code>Swift</code> 中会因为简单的 <code>var</code> <code>let</code> 误以为 <code>Swift</code> 中的类型非常松散</li>
-<li>其实所有变量的准确类型都是在赋值的同时自动推导的</li>
-<li><code>Swift</code> 是对类型要求非常严格的一门语言，<code>一个值永远不会被自动转换成其他类型</code></li>
-<li>如果要转换，必须显示转换，Swift 中<ul>
-<li>小数默认是 <code>Double</code> 类型</li>
-<li>整数默认是 <code>Int</code> 类型</li>
-</ul>
+<li></li>
+</ol>
 </li>
-<li>如果要显式的指定变量的类型，可以在定义是使用 <code>var 变量名: 类型 = 值</code></li>
-</ul>
-</li>
-</ul>
+</ol>
+<h2 id="发布篇"><a href="#发布篇" class="headerlink" title="发布篇"></a>发布篇</h2><ol>
+<li>fir.im分发及版本更新</li>
+<li>企业账号打包</li>
+<li></li>
+</ol>
+<h2 id="其他篇"><a href="#其他篇" class="headerlink" title="其他篇"></a>其他篇</h2><ol>
+<li>iOS面试题</li>
+<li>组织架构</li>
+<li>规章制度</li>
+<li>SVN规范</li>
+<li></li>
+</ol>
+<h2 id="账号资料管理篇"><a href="#账号资料管理篇" class="headerlink" title="账号资料管理篇"></a>账号资料管理篇</h2><ol>
+<li>管理人员</li>
+<li>管理规范</li>
+<li>人员交接</li>
+<li></li>
+</ol>
 
       
     </div>
@@ -346,13 +361,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2015/09/05/01/">常量变量</a></p>
+        <p><span>本文标题:</span><a href="/2018/04/22/iOS开发文档/">iOS开发文档</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">丁健</a></p>
-        <p><span>发布时间:</span>2015-09-05, 20:20:54</p>
-        <p><span>最后更新:</span>2017-11-13, 22:22:23</p>
+        <p><span>发布时间:</span>2018-04-22, 17:31:21</p>
+        <p><span>最后更新:</span>2018-04-22, 17:33:55</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2015/09/05/01/" title="常量变量">http://yoursite.com/2015/09/05/01/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2015/09/05/01/　　作者: 丁健" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2018/04/22/iOS开发文档/" title="iOS开发文档">http://yoursite.com/2018/04/22/iOS开发文档/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/04/22/iOS开发文档/　　作者: 丁健" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -364,12 +379,12 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2015/09/05/02/">
-                    逻辑分支
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2018/04/22/企业、个人证书申请及使用、安装流程/">
+                    企业、个人证书申请及使用、**安装流程
                 </a>
             </div>
-        
         
     </nav>
 
@@ -379,7 +394,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#简单体验"><span class="toc-number">1.</span> <span class="toc-text">简单体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#定义-OC-对象"><span class="toc-number">2.</span> <span class="toc-text">定义 OC 对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#变量类型"><span class="toc-number">3.</span> <span class="toc-text">变量类型</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#iOS开发文档"><span class="toc-number">1.</span> <span class="toc-text">iOS开发文档</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#架构篇"><span class="toc-number">1.1.</span> <span class="toc-text">架构篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#规范篇"><span class="toc-number">1.2.</span> <span class="toc-text">规范篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#框架篇"><span class="toc-number">1.3.</span> <span class="toc-text">框架篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布篇"><span class="toc-number">1.4.</span> <span class="toc-text">发布篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他篇"><span class="toc-number">1.5.</span> <span class="toc-text">其他篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#账号资料管理篇"><span class="toc-number">1.6.</span> <span class="toc-text">账号资料管理篇</span></a></li></ol></li></ol>
         
     </div>
     <style>
@@ -415,7 +430,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"常量变量　| dingjianjajaの博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"iOS开发文档　| dingjianjajaの博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -435,15 +450,15 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2015/09/05/02/" title="上一篇: 逻辑分支">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2018/04/22/企业、个人证书申请及使用、安装流程/" title="下一篇: 企业、个人证书申请及使用、**安装流程">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
 
