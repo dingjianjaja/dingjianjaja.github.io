@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="丁健" />
+
+
+
+<meta name="description" content="逻辑分支简单体验12345var i = 10if i &amp;gt; 0 &amp;#123;    print(&quot;OK&quot;)&amp;#125;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="dingjianjajaの博客">
+<meta property="og:url" content="http://yoursite.com/2015/09/05/02/index.html">
+<meta property="og:site_name" content="dingjianjajaの博客">
+<meta property="og:description" content="逻辑分支简单体验12345var i = 10if i &amp;gt; 0 &amp;#123;    print(&quot;OK&quot;)&amp;#125;">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-11-13T14:12:08.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="dingjianjajaの博客">
+<meta name="twitter:description" content="逻辑分支简单体验12345var i = 10if i &amp;gt; 0 &amp;#123;    print(&quot;OK&quot;)&amp;#125;">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="dingjianjajaの博客" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>dingjianjajaの博客</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: false
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">丁健</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">迈入新世界，成为独当一面的iOS开发工程师</p>
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">丁健</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">丁健</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">迈入新世界，成为独当一面的iOS开发工程师</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="post-02" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/09/05/02/" class="article-date">
+      <time datetime="2015-09-05T12:42:06.000Z" itemprop="datePublished">2015-09-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="逻辑分支"><a href="#逻辑分支" class="headerlink" title="逻辑分支"></a>逻辑分支</h1><h2 id="简单体验"><a href="#简单体验" class="headerlink" title="简单体验"></a>简单体验</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> i = <span class="number">10</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> i &gt; <span class="number">0</span> &#123;</div><div class="line">    <span class="built_in">print</span>(<span class="string">"OK"</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<ul>
+<li>阶段性小结<ul>
+<li><code>Swift</code> 中没有 C 语言中的<code>非零即真</code>概念</li>
+<li>在逻辑判断时必须显示地指明具体的判断条件</li>
+<li><code>if</code> 语句条件的 <code>()</code> 可以省略</li>
+<li>但是 <code>{}</code> 不能省略</li>
+</ul>
+</li>
+</ul>
+<h2 id="三目"><a href="#三目" class="headerlink" title="三目"></a>三目</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">10</span></div><div class="line"><span class="keyword">var</span> b = <span class="number">50</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> result = a &gt; b ? a : b</div><div class="line"><span class="built_in">print</span>(result)</div></pre></td></tr></table></figure>
+<ul>
+<li>阶段性小结<ul>
+<li><code>Swift</code> 中的 <code>三目</code> 运算保持了和 OC 一致的风格</li>
+</ul>
+</li>
+</ul>
+<h2 id="可选项"><a href="#可选项" class="headerlink" title="可选项"></a>可选项</h2><h3 id="演练-1"><a href="#演练-1" class="headerlink" title="演练 1"></a>演练 1</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> url = <span class="type">NSURL</span>(string: <span class="string">"http://www.520it.com/"</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> url != <span class="literal">nil</span> &#123;</div><div class="line">    <span class="type">NSURLSession</span>.sharedSession().dataTaskWithURL(url!, completionHandler: &#123; (data, <span class="number">_</span>, <span class="number">_</span>) -&gt; <span class="type">Void</span> <span class="keyword">in</span></div><div class="line">        <span class="built_in">print</span>(<span class="type">NSString</span>(data: data!, encoding: <span class="type">NSUTF8StringEncoding</span>))</div><div class="line">    &#125;).resume()</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><p>阶段性小结</p>
+<ul>
+<li><p>在 <code>Swift</code> 中，不是所有的对象实例化方法都会返回值，在实际开发中需要注意实例化函数的返回类型，例如：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">convenience</span> <span class="keyword">init</span>?(string <span class="type">URLString</span>: <span class="type">String</span>)</div></pre></td></tr></table></figure>
+</li>
+<li><p>如果有 <code>?</code> 表示改方法有可能无法实例化到正确的对象</p>
+</li>
+<li>这种函数返回的对象，被称为 <code>可选项</code>，即有可能有值，也有可能没有值</li>
+<li>实际开发时，需要针对这种对象加以判断，并且在分支内部使用 <code>!</code>，指明改对象确实是存在的</li>
+<li>相比在 <code>OC</code> 的开发，尤其在日常练习时，会给定一个能够运行的值，而在实际运行时，一旦条件不满足，会直接闪退，这样用户体验会非常不好</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><code>Swift</code> 的设计者考虑到因为对类型的强制要求，会让代码很难看，因此提供了一个变通的解决方案</p>
+</blockquote>
+<h3 id="演练-2"><a href="#演练-2" class="headerlink" title="演练 2"></a>演练 2</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> <span class="keyword">let</span> url = <span class="type">NSURL</span>(string: <span class="string">"http://520it.com"</span>) &#123;</div><div class="line">    <span class="type">NSURLSession</span>.sharedSession().dataTaskWithURL(url, completionHandler: &#123; (data, <span class="number">_</span>, <span class="number">_</span>) -&gt; <span class="type">Void</span> <span class="keyword">in</span></div><div class="line">        <span class="built_in">print</span>(<span class="type">NSString</span>(data: data!, encoding: <span class="type">NSUTF8StringEncoding</span>))</div><div class="line">    &#125;).resume()</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><p>阶段性小结</p>
+<ul>
+<li>使用 <code>if let 常量 = 可选构造函数</code> 的方式能够确保分支内部常量一定是有值的</li>
+<li>并且在分支内部不再需要使用 <code>!</code></li>
+<li>这是 <code>Swift</code> 代码中的一个非常重要的使用技巧</li>
+</ul>
+</li>
+<li><p>提示</p>
+<ul>
+<li>尽管 <code>Swift</code> 提供了类型校验的手段，但是要写出 <code>优雅</code> 的 Swift 代码，还是需要多加练习的，否则一不小心就会出现分支嵌套层次很深的代码</li>
+<li>有关 <code>?</code> 和 <code>!</code> 的选择，可以借助 Xcode 的辅助工具，但是强烈建议每次遇到提示时，要多加思考，反复揣摩</li>
+</ul>
+</li>
+</ul>
+<h3 id="演练3"><a href="#演练3" class="headerlink" title="演练3"></a>演练3</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> name: <span class="type">String</span>?</div><div class="line"><span class="built_in">print</span>(name?.lengthOfBytesUsingEncoding(<span class="type">NSUTF8StringEncoding</span>))</div><div class="line"></div><div class="line">name = <span class="string">"lnj"</span></div><div class="line"><span class="built_in">print</span>(name?.lengthOfBytesUsingEncoding(<span class="type">NSUTF8StringEncoding</span>))</div><div class="line"></div><div class="line"><span class="keyword">let</span> l = <span class="number">10</span></div><div class="line"><span class="built_in">print</span>(l + (name?.lengthOfBytesUsingEncoding(<span class="type">NSUTF8StringEncoding</span>) ?? <span class="number">0</span>))</div></pre></td></tr></table></figure>
+<ul>
+<li>阶段性小结<ul>
+<li><code>??</code> 是一个非常有用的操作符，能够快速对 <code>nil</code> 进行判断</li>
+<li>如果对象是 <code>nil</code>，则使用 <code>??</code> 后面的值代替前面的 <code>nil</code> 值参与计算</li>
+<li>在使用 <code>??</code> 时，整个部分需要使用 <code>()</code> 包装</li>
+<li>这一技巧在 <code>UITableView</code> 的数据源方法中尤为重要</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2015/09/05/02/"></a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">丁健</a></p>
+        <p><span>发布时间:</span>2015-09-05, 20:42:06</p>
+        <p><span>最后更新:</span>2017-11-13, 22:12:08</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2015/09/05/02/" title="">http://yoursite.com/2015/09/05/02/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2015/09/05/02/　　作者: 丁健" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2015/09/05/03/">
+                    
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2015/09/05/01/">
+                    常量&amp;变量
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#逻辑分支"><span class="toc-number">1.</span> <span class="toc-text">逻辑分支</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#简单体验"><span class="toc-number">1.1.</span> <span class="toc-text">简单体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三目"><span class="toc-number">1.2.</span> <span class="toc-text">三目</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可选项"><span class="toc-number">1.3.</span> <span class="toc-text">可选项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#演练-1"><span class="toc-number">1.3.1.</span> <span class="toc-text">演练 1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#演练-2"><span class="toc-number">1.3.2.</span> <span class="toc-text">演练 2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#演练3"><span class="toc-number">1.3.3.</span> <span class="toc-text">演练3</span></a></li></ol></li></ol></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"　| dingjianjajaの博客　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2015/09/05/03/" title="上一篇: ">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2015/09/05/01/" title="下一篇: 常量&amp;变量">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/10/22/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/06/10/">10</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/06/09/">09</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/06/08/">08</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/07/">07</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/04/">04</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/05/">05</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/06/">06</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/03/">03</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/02/">02</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/05/01/">常量&变量</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016-2017 丁健
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>
