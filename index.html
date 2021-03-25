@@ -1,100 +1,48 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <!--[if lt IE 9]>
-        <style>body {display: none; background: none !important} </style>
-        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
-    <![endif]-->
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="丁健" />
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
 
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A tool to automatically convert dart code to yingzi DSL json">
 
-    
-    
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="yingzi_dsl_genorator">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-<meta name="description" content="迈入新世界，成为独当一面的iOS开发工程师">
-<meta property="og:type" content="website">
-<meta property="og:title" content="dingjianjajaの博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="dingjianjajaの博客">
-<meta property="og:description" content="迈入新世界，成为独当一面的iOS开发工程师">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="dingjianjajaの博客">
-<meta name="twitter:description" content="迈入新世界，成为独当一面的iOS开发工程师">
-
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
-
-
-    <link rel="alternate" href="/atom.xml" title="dingjianjajaの博客" type="application/atom+xml">
-
-
-
-    <link rel="shortcut icon" href="/favicon.png">
-
-
-
-    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-
-
-
-    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
-
-    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-    <style> .article { opacity: 0;} </style>
-
-
-<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
-<title>dingjianjajaの博客</title>
-
-<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-<script>
-    var yiliaConfig = {
-        fancybox: true,
-        animate: true,
-        isHome: true,
-        isPost: false,
-        isArchive: false,
-        isTag: false,
-        isCategory: false,
-        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
-        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: false
-    }
-</script>
-
-
-    <script> yiliaConfig.jquery_ui = [false]; </script>
-
-
-
-    <script> yiliaConfig.rootUrl = "\/";</script>
-
-
-
-
-
-
+  <title>yingzi_dsl_genorator</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
+<<<<<<< HEAD
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3234930929');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+=======
   <div id="container">
     <div class="left-col">
     <div class="overlay"></div>
@@ -188,7 +136,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        
+                        <ul class="tag-list"></ul>
                     </div>
                 </section>
                 
@@ -267,133 +215,6 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-iOS开发文档" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2018/04/22/iOS开发文档/" class="article-date">
-      <time datetime="2018-04-22T09:31:21.000Z" itemprop="datePublished">2018-04-22</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/22/iOS开发文档/">iOS开发文档</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h1 id="iOS开发文档"><a href="#iOS开发文档" class="headerlink" title="iOS开发文档"></a>iOS开发文档</h1><h2 id="架构篇"><a href="#架构篇" class="headerlink" title="架构篇"></a>架构篇</h2><ol>
-<li>文件夹分组格式</li>
-<li>pch格式</li>
-<li>网络头文件</li>
-<li>interface</li>
-<li>stroyboard</li>
-</ol>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-        <p class="article-more-link">
-          <a href="/2018/04/22/iOS开发文档/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-企业、个人证书申请及使用、安装流程" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2018/04/22/企业、个人证书申请及使用、安装流程/" class="article-date">
-      <time datetime="2018-04-22T09:24:38.000Z" itemprop="datePublished">2018-04-22</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/22/企业、个人证书申请及使用、安装流程/">企业、个人证书申请及使用、**安装流程</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="企业、个人证书申请及使用、安装流程"><a href="#企业、个人证书申请及使用、安装流程" class="headerlink" title="企业、个人证书申请及使用、安装流程"></a>企业、个人证书申请及使用、<strong>安装流程</strong></h2><p><em>企业版IDP，即iOS Development Enterprise Program。注意是$299／Year那种，并不是$99/Year的那种。<br>这种方式的IDP其最大的好处在于：可以发布“In House”应用。<br>这种应用使用一种叫做“In House Distribution Provisioning Profile”的文件进行发布，不能发布到Apple Shop进行销售，也不需要经过Apple的评审。你可以把“In House”应用通过任何方式发布给你的企业员工、用户及其他你认可的任何人，尤其适合于企业应用的开发。<br>网上关于个人版/公司版IDP申请流程，以及将应用发布到苹果商店的介绍有很多，但关于企业版IDP以及In House应用的讨论非常之少（尤其国内）。</em></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-        <p class="article-more-link">
-          <a href="/2018/04/22/企业、个人证书申请及使用、安装流程/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -471,21 +292,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/06/10/">getter &amp; setter</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="自定义-Person-类"><a href="#自定义-Person-类" class="headerlink" title="自定义 Person 类"></a>自定义 Person 类</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">NSObject</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">var</span> name: <span class="type">String</span>?</div><div class="line">    <span class="keyword">var</span> age: <span class="type">Int</span>?</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+              <h1 id="getter-amp-setter"><a href="#getter-amp-setter" class="headerlink" title="getter &amp; setter"></a>getter &amp; setter</h1><h2 id="自定义-Person-类"><a href="#自定义-Person-类" class="headerlink" title="自定义 Person 类"></a>自定义 Person 类</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">NSObject</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">var</span> name: <span class="type">String</span>?</div><div class="line">    <span class="keyword">var</span> age: <span class="type">Int</span>?</div><div class="line">&#125;</div></pre></td></tr></table></figure>
           
       
     </div>
@@ -531,21 +341,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/06/09/">懒加载</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-        <figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">lazy</span> <span class="keyword">var</span> demoView: <span class="type">UIView</span> = &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> v = <span class="type">UIView</span>(frame: <span class="type">CGRectMake</span>(<span class="number">10</span>, <span class="number">10</span>, <span class="number">100</span>, <span class="number">100</span>))</div><div class="line">    v.backgroundColor = <span class="type">UIColor</span>.redColor()</div><div class="line"></div><div class="line">    <span class="keyword">return</span> v</div><div class="line">&#125;()</div></pre></td></tr></table></figure>
+        <h1 id="懒加载"><a href="#懒加载" class="headerlink" title="懒加载"></a>懒加载</h1><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">lazy</span> <span class="keyword">var</span> demoView: <span class="type">UIView</span> = &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> v = <span class="type">UIView</span>(frame: <span class="type">CGRectMake</span>(<span class="number">10</span>, <span class="number">10</span>, <span class="number">100</span>, <span class="number">100</span>))</div><div class="line">    v.backgroundColor = <span class="type">UIColor</span>.redColor()</div><div class="line"></div><div class="line">    <span class="keyword">return</span> v</div><div class="line">&#125;()</div></pre></td></tr></table></figure>
 <ul>
 <li>格式：</li>
 </ul>
@@ -594,21 +393,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/06/08/">闭包</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-        <ul>
+        <h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><ul>
 <li>闭包定义</li>
 <li>闭包简化 - 尾随闭包</li>
 <li>闭包参数</li>
@@ -657,21 +445,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/05/07/">函数</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="简单演练"><a href="#简单演练" class="headerlink" title="简单演练"></a>简单演练</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">sum</span><span class="params">(a: Int, b: Int)</span></span> -&gt; <span class="type">Int</span> &#123;</div><div class="line">    <span class="keyword">return</span> a + b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+              <h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h2 id="简单演练"><a href="#简单演练" class="headerlink" title="简单演练"></a>简单演练</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">sum</span><span class="params">(a: Int, b: Int)</span></span> -&gt; <span class="type">Int</span> &#123;</div><div class="line">    <span class="keyword">return</span> a + b</div><div class="line">&#125;</div></pre></td></tr></table></figure>
           
       
     </div>
@@ -717,21 +494,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/05/04/">字符串</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-              <blockquote>
+              <h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><blockquote>
 <p>在 Swift 中绝大多数的情况下，推荐使用 String 类型</p>
 </blockquote>
 <h2 id="使用-String-的原因"><a href="#使用-String-的原因" class="headerlink" title="使用 String 的原因"></a>使用 <code>String</code> 的原因</h2><ul>
@@ -787,21 +553,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/05/05/">数组</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="简单体验"><a href="#简单体验" class="headerlink" title="简单体验"></a>简单体验</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> arr = [<span class="string">"zhangsan"</span>, <span class="string">"lisi"</span>]</div><div class="line"><span class="built_in">print</span>(arr)</div><div class="line"></div><div class="line"><span class="comment">// 遍历每一个元素</span></div><div class="line"><span class="keyword">for</span> a <span class="keyword">in</span> arr &#123;</div><div class="line">    <span class="built_in">print</span>(a)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 像 OC 一样打印</span></div><div class="line"><span class="built_in">print</span>(arr <span class="keyword">as</span> <span class="type">NSArray</span>)</div></pre></td></tr></table></figure>
+              <h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><h2 id="简单体验"><a href="#简单体验" class="headerlink" title="简单体验"></a>简单体验</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> arr = [<span class="string">"zhangsan"</span>, <span class="string">"lisi"</span>]</div><div class="line"><span class="built_in">print</span>(arr)</div><div class="line"></div><div class="line"><span class="comment">// 遍历每一个元素</span></div><div class="line"><span class="keyword">for</span> a <span class="keyword">in</span> arr &#123;</div><div class="line">    <span class="built_in">print</span>(a)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 像 OC 一样打印</span></div><div class="line"><span class="built_in">print</span>(arr <span class="keyword">as</span> <span class="type">NSArray</span>)</div></pre></td></tr></table></figure>
           
       
     </div>
@@ -847,21 +602,10 @@
       <input type="hidden" class="isFancy" />
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/05/06/">字典</a>
-    </h1>
-  
-
-      </header>
-      
-    
     <div class="article-entry" itemprop="articleBody">
       
           
-        <figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/// 定义并实例化字典</span></div><div class="line"><span class="keyword">var</span> dict = [<span class="type">String</span>: <span class="type">AnyObject</span>]()</div><div class="line"></div><div class="line">dict[<span class="string">"name"</span>] = <span class="string">"zhangsan"</span></div><div class="line">dict[<span class="string">"age"</span>] = <span class="number">18</span></div><div class="line"></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 设置相同 key，之前的数值会被覆盖</span></div><div class="line">dict[<span class="string">"name"</span>] = <span class="string">"lisi"</span></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 删除某一个 key</span></div><div class="line">dict.removeValueForKey(<span class="string">"age"</span>)</div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line">dict[<span class="string">"title"</span>] = <span class="string">"manager"</span></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 遍历字典(k, v可以随便写)</span></div><div class="line"><span class="keyword">for</span> (k, v) <span class="keyword">in</span> dict &#123;</div><div class="line">    <span class="built_in">print</span>(<span class="string">"<span class="subst">\(k)</span> -- <span class="subst">\(v)</span>"</span>)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 合并字典</span></div><div class="line"><span class="keyword">var</span> dict2 = [<span class="string">"name"</span>: <span class="string">"wangwu"</span>, <span class="string">"age"</span>: <span class="number">80</span>, <span class="string">"title"</span>: <span class="string">"boss"</span>]</div><div class="line"><span class="keyword">for</span> (k, v) <span class="keyword">in</span> dict2 &#123;</div><div class="line">    dict.updateValue(v, forKey: k)</div><div class="line">&#125;</div><div class="line"><span class="built_in">print</span>(dict)</div></pre></td></tr></table></figure>
+        <h1 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h1><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/// 定义并实例化字典</span></div><div class="line"><span class="keyword">var</span> dict = [<span class="type">String</span>: <span class="type">AnyObject</span>]()</div><div class="line"></div><div class="line">dict[<span class="string">"name"</span>] = <span class="string">"zhangsan"</span></div><div class="line">dict[<span class="string">"age"</span>] = <span class="number">18</span></div><div class="line"></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 设置相同 key，之前的数值会被覆盖</span></div><div class="line">dict[<span class="string">"name"</span>] = <span class="string">"lisi"</span></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 删除某一个 key</span></div><div class="line">dict.removeValueForKey(<span class="string">"age"</span>)</div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line">dict[<span class="string">"title"</span>] = <span class="string">"manager"</span></div><div class="line"><span class="built_in">print</span>(dict)</div><div class="line"></div><div class="line"><span class="comment">// 遍历字典(k, v可以随便写)</span></div><div class="line"><span class="keyword">for</span> (k, v) <span class="keyword">in</span> dict &#123;</div><div class="line">    <span class="built_in">print</span>(<span class="string">"<span class="subst">\(k)</span> -- <span class="subst">\(v)</span>"</span>)</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 合并字典</span></div><div class="line"><span class="keyword">var</span> dict2 = [<span class="string">"name"</span>: <span class="string">"wangwu"</span>, <span class="string">"age"</span>: <span class="number">80</span>, <span class="string">"title"</span>: <span class="string">"boss"</span>]</div><div class="line"><span class="keyword">for</span> (k, v) <span class="keyword">in</span> dict2 &#123;</div><div class="line">    dict.updateValue(v, forKey: k)</div><div class="line">&#125;</div><div class="line"><span class="built_in">print</span>(dict)</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -871,6 +615,104 @@
       
 
       
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-03" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/09/05/03/" class="article-date">
+      <time datetime="2015-09-05T14:48:34.000Z" itemprop="datePublished">2015-09-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h1 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h1><h2 id="OC风格的-for"><a href="#OC风格的-for" class="headerlink" title="OC风格的 for"></a>OC风格的 <code>for</code></h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 传统写法</span></div><div class="line"><span class="keyword">for</span> <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++ &#123;</div><div class="line">    <span class="built_in">print</span>(i)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+        <p class="article-more-link">
+          <a href="/2015/09/05/03/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-02" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/09/05/02/" class="article-date">
+      <time datetime="2015-09-05T12:42:06.000Z" itemprop="datePublished">2015-09-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h1 id="逻辑分支"><a href="#逻辑分支" class="headerlink" title="逻辑分支"></a>逻辑分支</h1><h2 id="简单体验"><a href="#简单体验" class="headerlink" title="简单体验"></a>简单体验</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> i = <span class="number">10</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> i &gt; <span class="number">0</span> &#123;</div><div class="line">    <span class="built_in">print</span>(<span class="string">"OK"</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+        <p class="article-more-link">
+          <a href="/2015/09/05/02/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -899,7 +741,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
-                2016-2018 丁健
+                2016-2017 丁健
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
@@ -980,5 +822,6 @@
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
   </div>
+>>>>>>> parent of 53ba3f3... Site updated: 2018-04-22 17:39:55
 </body>
 </html>
