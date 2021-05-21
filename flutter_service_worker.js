@@ -4,12 +4,12 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "350363690d4682729db87d59723e6042",
-"index.html": "57bc323eb0284cfd6e4229013b988947",
-"/": "57bc323eb0284cfd6e4229013b988947",
-"main.dart.js": "1849deee471b026513f740ab00918ee7",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"index.html": "edb1d0e38b02039f0050c6d9f3666dfa",
+"/": "edb1d0e38b02039f0050c6d9f3666dfa",
+"main.dart.js": "b44b6938c2c6e325245dab00f8de893e",
+"favicon.png": "5995b225d96b4872177d09d0d8b0c829",
+"icons/Icon-192.png": "0af1c7c5b6cd46d2a9fa5799e446a1bc",
+"icons/Icon-512.png": "342df61c788f1309b0271ee8bbc6e3a2",
 "manifest.json": "62167adbcd72238408e8245dce2ebe58",
 "assets/images/icon_alarm_level_low.png": "b96230189606aa9b160501eec5d138e9",
 "assets/images/iphone_bg.png": "9a099084b724cebbf93b83d8f9e9c781",
@@ -20,10 +20,16 @@ const RESOURCES = {
 "assets/images/lab_bj.png": "2a96d1dcf2f345a0a4459cac83403dd5",
 "assets/images/icon_yujing_bg.png": "b4df038df89e2fc139c0d5800291adb3",
 "assets/images/icon_baojing_bg.png": "9b7c527464c89ed8dae8a3595c13be8e",
-"assets/AssetManifest.json": "b682b930f3296931f4a47495f6f67525",
-"assets/NOTICES": "17d89e07895b64009304fa379d7b44a2",
+"assets/AssetManifest.json": "81664168c24358dcad3a3d26f2470dca",
+"assets/NOTICES": "a779f4d1feede35a88f3012577bfaf28",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/lib/res/images/icon_bf.png": "82d5b1c4c48ad441ad641c662ed087fe",
+"assets/lib/res/images/2.0x/icon_bf.png": "8edeec6e8c946396158414498a501c5d",
+"assets/lib/res/images/2.0x/icon_sy_yj.png": "451c4bc3f7f948f49d08345aed8c5759",
+"assets/lib/res/images/icon_sy_yj.png": "0770d9c6edb0712544c091038f274829",
+"assets/lib/res/images/3.0x/icon_bf.png": "32019f9b979e361e910020f8f51c7481",
+"assets/lib/res/images/3.0x/icon_sy_yj.png": "ef61e6ff76f136612df5756e29c16790",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
