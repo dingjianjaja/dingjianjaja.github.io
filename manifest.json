@@ -1,6 +1,6 @@
 {
-    "name": "yingzi_download_app",
-    "short_name": "yingzi_download_app",
+    "name": "yz_model_gen",
+    "short_name": "yz_model_gen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
